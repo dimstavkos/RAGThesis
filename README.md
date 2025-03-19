@@ -20,6 +20,9 @@ The system integrates the following datasets:
 This system is designed to run in Google Colab, requiring no local installation. To use it:
 
 ### 1. Open the Colab Notebook
+To run the Retrieval-Augmented Airbnb Recommendation System, simply open the provided Google Colab notebook.
+
+https://colab.research.google.com/drive/1Izrs4T8YyXmWnvjHvTGUaiVnM1NrYzN6?usp=sharing
 
 ### 2. Run the Cells
 - Install required dependencies using pip (included in the first cell).
