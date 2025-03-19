@@ -28,11 +28,16 @@ This system is designed to run in Google Colab, requiring no local installation.
 ### 3. Set Up Environment Variables
 Create a .env file in Google Colab to store sensitive information like database credentials and API keys.
 > MONGO_USERNAME=username
-MONGO_PASSWORD=password
-MONGO_DB=airbnb_database
-HUGGINGFACE_TOKEN=hf_token
-Input a Query
+> MONGO_PASSWORD=password
+> MONGO_DB=airbnb_database
+> HUGGINGFACE_TOKEN=hf_token
 
-Example: "Find Airbnbs within 100 meters of Acropolis Museum"
-The system will process the request and return results.
+## Usage
+- Input a query via the Colab interface.
+- The system extracts the POI name/category and search radius.
+- It retrieves POIs via vector search and executes geospatial filtering.
+- Results are summarized and displayed to the user.
+
+> Example: "Find Airbnbs within 100 meters of Acropolis Museum"
+> The system will process the request and return results.
 
