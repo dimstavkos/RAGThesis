@@ -32,7 +32,7 @@ Create a .env file in Google Drive to store sensitive information like database 
 ```bash
 MONGO_USERNAME=username
 MONGO_PASSWORD=password
-MONGO_DB=airbnb_database
+MONGO_DB=airbnb_db
 HUGGINGFACE_TOKEN=hf_token
 ```
 
