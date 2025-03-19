@@ -14,7 +14,7 @@ The system integrates the following datasets:
 
 - Airbnb Listings Dataset: Contains Airbnb properties with details such as name, description, and location.
 
-- Points of Interest (POI) Dataset: Includes geographic coordinates and classifications of popular locations.
+- Points of Interest (POI) Dataset: Includes geographic coordinates and classifications (e.g., museums, parks) of popular locations.
 
 ## Installation & Usage (Google Colab)
 This system is designed to run in Google Colab, requiring no local installation. To use it:
