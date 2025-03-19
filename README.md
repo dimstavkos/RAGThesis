@@ -22,7 +22,6 @@ This system is designed to run in Google Colab, requiring no local installation.
 ### 1. Open the Colab Notebook
 
 ### 2. Run the Cells
-- Follow the notebook instructions.
 - Install required dependencies using pip (included in the first cell).
 - Ensure datasets are stored in Google Drive and are accessible by the notebook.
 ### 3. Set Up Environment Variables
