@@ -25,7 +25,7 @@ This system is designed to run in Google Colab, requiring no local installation.
 - Install required dependencies using pip (included in the first cell).
 - Ensure datasets are stored in Google Drive and are accessible by the notebook.
 ### 3. Set Up Environment Variables
-Create a .env file in Google Colab to store sensitive information like database credentials and API keys.
+Create a .env file in Google Drive to store sensitive information like database credentials and API keys.
 ```bash
 MONGO_USERNAME=username
 MONGO_PASSWORD=password
