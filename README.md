@@ -36,8 +36,8 @@ HUGGINGFACE_TOKEN=hf_token
 ## Usage
 - Input a query via the Colab interface.
 - The system extracts the POI name/category and search radius.
-- It retrieves POIs via vector search and executes geospatial filtering.
-- Results are summarized and displayed to the user.
+- It retrieves POIs via vector search and executes geospatial filtering to find Airbnbs near POI.
+- The system will return the filtered Airbnb listings and summarize the results.
 
 > Example: "Find Airbnbs within 100 meters of Acropolis Museum"\
 > The system will process the request and return results.
