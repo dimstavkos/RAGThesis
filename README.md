@@ -92,7 +92,7 @@ and generation components are functioning effectively in scenarios where both
 relevant POIs and nearby Airbnbs exist within the defined spatial constraints.
 
 ### Example 4
-**User Query:** Find Airbnbs 700 meters from Βενέτη”\
+**User Query:** "Find Airbnbs 700 meters from Βενέτη”\
 **Generated Answer:** 
 
 ![Alt text](https://raw.githubusercontent.com/dimstavkos/RAGThesis/main/images/Example%204.jpg)\
