@@ -8,6 +8,8 @@ This system is a Retrieval-Augmented Generation (RAG) pipeline designed to provi
 
 The system extracts key entities from the query (distance, named POI, or POI category), retrieves relevant POIs using vector search, and performs geospatial filtering to return the most relevant Airbnb listings. Finally, a language model summarizes the results for enhanced readability.
 
+![Alt text](https://raw.githubusercontent.com/dimstavkos/RAGThesis/main/images/Architecture.jpg)
+
 ## Data Sources
 
 The system integrates the following datasets:
