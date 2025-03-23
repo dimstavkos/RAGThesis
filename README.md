@@ -48,7 +48,31 @@ HUGGINGFACE_TOKEN=hf_token
 
 ## Answer Generation
 ### Example 1
-**User Query:** "Find Aribnbs 500 meters from a cafe"
-**Generated Answer:** Image
-**Analysis:**
+**User Query:** "Find Aribnbs 500 meters from a cafe"\
+**Generated Answer:** Image\
+**Analysis:**\
+
+### Example 2
+**User Query:** “Find Airbnbs 500 meters from a hookah cafe”\
+**Generated Answer:** Image\
+**Analysis:**\
+
+### Example 3
+**User Query:** “Find Aribnbs 1500 meters from a bakery”\
+**Generated Answer:** Image\
+**Analysis:**\
+
+### Example 4
+**User Query:** Find Airbnbs 700 meters from Βενέτη”\
+**Generated Answer:** Image\
+**Analysis:**\
+
+### Example 5
+**User Query:** “Find Airbnbs 800 meters from a Galaxias supermarket”\
+**Generated Answer:** Image\
+**Analysis:**\
+
+
+
+
 
