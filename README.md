@@ -45,3 +45,10 @@ HUGGINGFACE_TOKEN=hf_token
 > Example: "Find Airbnbs within 100 meters of Acropolis Museum"\
 > The system will process the request and return results.
 
+
+## Answer Generation
+### Example 1
+**User Query:** "Find Aribnbs 500 meters from a cafe"
+**Generated Answer:** Image
+**Analysis:**
+
