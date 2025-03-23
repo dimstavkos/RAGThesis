@@ -121,7 +121,9 @@ supports multiple languages and is designed for general-purpose retrieval, it
 may not reliably connect transliterated names to their original forms unless such
 mappings were strongly represented during training. As a result, the embedding
 for "Galaxias" does not sufficiently match the embeddings of POIs labeled
-"Γαλαξίας" in the dataset, leading to reduced retrieval accuracy. \This highlights
+"Γαλαξίας" in the dataset, leading to reduced retrieval accuracy. 
+
+This highlights
 a core limitation in multilingual named entity handling, especially in contexts
 involving transliteration or language mixing.
 Additionally, variations in natural language phrasing were found to influence the
@@ -131,7 +133,8 @@ interpret the phrase as referring to a general class rather than a specific POI.
 Consequently, it retrieves Airbnb listings near generic supermarkets. However,
 omitting the article, for instance, "Find Airbnbs near Galaxias supermarket",
 results in the model treating the phrase more like a named entity, yielding more
-accurate and targeted results.\
+accurate and targeted results.
+
 The inclusion of an article such as "a" can shift the embedding vector toward a
 more generic semantic space, while the absence of such determiners
 emphasizes the named nature of the phrase. These findings highlight the
