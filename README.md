@@ -80,7 +80,7 @@ sample and obtain meaningful results.\
 **User Query:** “Find Aribnbs 1500 meters from a bakery”\
 **Generated Answer:** 
 ![Alt text](https://raw.githubusercontent.com/dimstavkos/RAGThesis/main/images/Example%203.jpg)\
-![Alt text](https://raw.githubusercontent.com/dimstavkos/RAGThesis/main/images/Example%203_1.jpg)\
+![Alt text](https://raw.githubusercontent.com/dimstavkos/RAGThesis/main/images/Example%203_2.jpg)\
 **Analysis:** In this example, the system correctly identifies that the query targets a specific
 POI class ("bakery") and performs as intended. It successfully retrieves top-
 ranked instances of the specified class and subsequently presents the Airbnb
