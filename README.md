@@ -49,9 +49,9 @@ HUGGINGFACE_TOKEN=hf_token
 ## Answer Generation
 ### Example 1
 **User Query:** "Find Aribnbs 500 meters from a cafe"\
-**Generated Answer:** ![Alt text](https://raw.githubusercontent.com/dimstavkos/RAGThesis/main/images/image.png)\
+**Generated Answer:** ![Alt text](https://raw.githubusercontent.com/dimstavkos/RAGThesis/main/images/Example 1.jpg)\
 ![Alt text](https://raw.githubusercontent.com/dimstavkos/RAGThesis/main/images/image.png)\
-**Analysis:**The system correctly interprets the user's intent by identifying the specified POI
+**Analysis:** The system correctly interprets the user's intent by identifying the specified POI
 class ("cafe") and retrieving relevant instances accordingly. The retrieval
 process functions as intended, first locating cafes through vector-based search
 and subsequently identifying Airbnb listings within a 500-meter radius of each
