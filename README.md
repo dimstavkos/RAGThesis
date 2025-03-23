@@ -49,7 +49,7 @@ HUGGINGFACE_TOKEN=hf_token
 ## Answer Generation
 ### Example 1
 **User Query:** "Find Aribnbs 500 meters from a cafe"\
-**Generated Answer:** ![Alt text](https://raw.githubusercontent.com/dimstavkos/RAGThesis/main/images/Example%201.jpg)\
+**Generated Answer:** \![Alt text](https://raw.githubusercontent.com/dimstavkos/RAGThesis/main/images/Example%201.jpg)\
 ![Alt text](https://raw.githubusercontent.com/dimstavkos/RAGThesis/main/images/Example%201_2.jpg)\
 **Analysis:** The system correctly interprets the user's intent by identifying the specified POI
 class ("cafe") and retrieving relevant instances accordingly. The retrieval
@@ -60,8 +60,8 @@ retrieval steps based on spatial proximity and semantic intent.\
 
 ### Example 2
 **User Query:** “Find Airbnbs 500 meters from a hookah cafe”\
-**Generated Answer:** ![Alt text](https://raw.githubusercontent.com/dimstavkos/RAGThesis/main/images/image.png)\
-**Analysis:**In this case, the system produces no output. Although the underlying database
+**Generated Answer:** ![Alt text](https://raw.githubusercontent.com/dimstavkos/RAGThesis/main/images/Example%202.jpg)\
+**Analysis:** In this case, the system produces no output. Although the underlying database
 contains a relevant POI entry (e.g., "hookah cafe"), no Airbnb listings were
 found within a 500-meter radius of this location. To investigate whether the
 absence of results was due to restrictive spatial constraints, the radius
@@ -76,9 +76,9 @@ sample and obtain meaningful results.\
 
 ### Example 3
 **User Query:** “Find Aribnbs 1500 meters from a bakery”\
-**Generated Answer:** ![Alt text](https://raw.githubusercontent.com/dimstavkos/RAGThesis/main/images/image.png)\
-![Alt text](https://raw.githubusercontent.com/dimstavkos/RAGThesis/main/images/image.png)\
-**Analysis:**In this example, the system correctly identifies that the query targets a specific
+**Generated Answer:** \![Alt text](https://raw.githubusercontent.com/dimstavkos/RAGThesis/main/images/Example%203.jpg)\
+![Alt text](https://raw.githubusercontent.com/dimstavkos/RAGThesis/main/images/Example%203_1.jpg)\
+**Analysis:** In this example, the system correctly identifies that the query targets a specific
 POI class ("bakery") and performs as intended. It successfully retrieves top-
 ranked instances of the specified class and subsequently presents the Airbnb
 listings located in proximity to those POIs. This demonstrates that the retrieval
@@ -87,8 +87,8 @@ relevant POIs and nearby Airbnbs exist within the defined spatial constraints.\
 
 ### Example 4
 **User Query:** Find Airbnbs 700 meters from Βενέτη”\
-**Generated Answer:** ![Alt text](https://raw.githubusercontent.com/dimstavkos/RAGThesis/main/images/image.png)\
-**Analysis:**In this case, the query targets a specific POI by name, using its Greek-language
+**Generated Answer:** ![Alt text](https://raw.githubusercontent.com/dimstavkos/RAGThesis/main/images/Example%204.jpg)\
+**Analysis:** In this case, the query targets a specific POI by name, using its Greek-language
 representation ("Βενέτης"). The system successfully identifies one matching
 instance of the POI and proceeds to retrieve and present the nearby Airbnb
 listings within the defined spatial radius. This example illustrates the system's
@@ -97,8 +97,8 @@ provided that relevant entries exist in the underlying dataset.\
 
 ### Example 5
 **User Query:** “Find Airbnbs 800 meters from a Galaxias supermarket”\
-**Generated Answer:** ![Alt text](https://raw.githubusercontent.com/dimstavkos/RAGThesis/main/images/image.png)\
-**Analysis:**In this example, the query uses the Latin-script version of the Greek
+**Generated Answer:** ![Alt text](https://raw.githubusercontent.com/dimstavkos/RAGThesis/main/images/Example%205.jpg)\
+**Analysis:** In this example, the query uses the Latin-script version of the Greek
 supermarket name "Galaxias" instead of its native Greek spelling "Γαλαξίας".
 The system interprets "Galaxias" as referring to a general class, likely due to
 its semantic association with the word “galaxy” in English or Spanish, and
